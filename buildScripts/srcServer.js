@@ -1,9 +1,9 @@
-var express = require('express');
-var path = require('path');
-var open = require('open');
+import express from 'express';
+import path from 'path';
+import open from 'open';
 
-var port = 3000;
-var app = express();
+const port = 3000;
+const app = express();
 
 //tell express which routes it should handle. Any references to the route should be handled by the function//
 app
